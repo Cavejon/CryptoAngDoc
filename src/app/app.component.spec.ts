@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'cryptoCoins'`, () => {
+  it(`should have as title 'angular17_login_signup_localstorage'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cryptoCoins');
+    expect(app.title).toEqual('angular17_login_signup_localstorage');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, cryptoCoins');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular17_login_signup_localstorage');
   });
 });
